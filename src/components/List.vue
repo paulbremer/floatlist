@@ -59,7 +59,7 @@ import Search from 'components/Search';
 import ListPlaceholder from 'components/ListPlaceholder';
 
 const $ = jquery;
-const apiURL = 'http://www.paulbremer.nl/labs/floatlist/api/api2.php';
+const apiURL = 'https://www.paulbremer.nl/labs/floatlist/api/api2.php';
 
 export default {
   name: 'list',
