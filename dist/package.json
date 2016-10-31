@@ -1,0 +1,10 @@
+{
+ "name": "floatlist",
+ "version": "1.0.0",
+ "description": "FloatList",
+ "author": "Paul Bremer",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express"
+ }
+}
