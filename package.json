@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
     "build": "node build/build.js",
+    "postinstall": "npm install express",
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -15,16 +15,13 @@
   },
   "dependencies": {
     "emoji-flags": "^1.2.0",
-    "geo-distance-js": "^1.0.0",
-    "googlemaps": "^1.11.1",
     "jquery": "^3.1.1",
     "lodash": "^4.16.4",
     "vue": "^2.0.1",
     "vue-animated-list": "^1.0.2",
     "vue-google-maps": "^0.1.21",
     "vue-resource": "^1.0.3",
-    "vue-router": "^2.0.1",
-    "yelp": "^1.0.1"
+    "vue-router": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
