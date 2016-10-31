@@ -1,5 +1,5 @@
-# floatlist
-A VueJS Project
+# FloatList
+FloatList - A VueJS Project
 
 ## Build Setup
 
